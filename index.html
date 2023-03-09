@@ -1,9 +1,62 @@
 <!DOCTYPE html>
-<html>
-<body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Challenge Article</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<!-- Create a html website that has a header that brings the website the different sections, About Me, Projects, and Contact Me -->
+<!-- Create a header that has the name of the website and the different sections -->
+<header>
+    <section>
+        <h1>My Website</h1>
+    </section>
+    <nav >
+        <section class = "Row_Section">
+            <a id = "About_Link" href = "#AboutSection">About Me</a>
+            <a id = "Projects_Link" href = "#ProjectsSection">Projects</a>
+            <a id = "ContactMe_Link" href = "#ContactSection">Contact Me</a>
+        </section>
+    </nav>
+</header>
+<!-- Create a section that has a picture of me and a short description about me -->
+<section id = "AboutSection">
+    <h2>About Me</h2>
+    <img class = "Portrait_Image" src="" alt="Picture of me">
+    <p>My name is <strong>John Doe</strong> and I am a student at <strong>University of California, Irvine</strong>. I am currently a <strong>Computer Science</strong> major and I am interested in <strong>Web Development</strong>. I am currently a <strong>Junior</strong> and I am looking for a <strong>Summer Internship</strong> for <strong>2020</strong>.</p>
+</section>
+<!-- Create a section that has a list of my projects -->
+<section>
+    <h2>Projects</h2>
+    <section class = "Row_Section">
+        <a href="project1.html"><img class = "Project_Preview" src = "Project1.png" alt = "Project Preview 1"></a>
+    </section>
+    <section class = "Row_Section">
+        <button id = "Prev_Button"><</button>
+        <button id = "Next_Button">></button>
+    </section>
+</section>
+<!-- Create a section that has a form that allows people to contact me -->
+<section>
+    <h2>Contact Me</h2>
+    <form action="mailto:">
+        <input type="text" name="name" placeholder="John Doe" title="Please enter your name"required>
+        <input type="text" name="email" placeholder="default@example.com" title="Please enter an email address"required>
+        <input type="tel" name="phoneNumber" placeholder="123-456-7890" size="20" minlength="9" maxlength="14" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"required title="Please enter a phone number">
+        <textarea name="message" placeholder="Message"title="Please enter the email address"required></textarea>
+        <button id = "Submit_Button">Submit</button>
+    </form>
+</section>
+<!-- Create a footer that has my name and the date -->
+<footer>
+    <p>John Doe</p>
+    <p>January 1, 2020</p>
+</footer>
+
 
 </body>
 </html>
