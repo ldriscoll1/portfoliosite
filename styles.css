@@ -162,7 +162,7 @@ Links
     padding: 5px;
     border: 1px solid #000;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 10px;
  }
  .navLink{
     font-family: "Golos Text", sans-serif;
@@ -196,9 +196,8 @@ Links
     justify-content: space-between;
     align-items: center;
     background-color: #77797a;
-    position: fixed;
-    top: 0;
     width: 100%;
+    margin-bottom: 5px;
  }
  footer {
     display: flex;
@@ -215,7 +214,7 @@ Links
     border: 3px solid #000;
     border-radius: 50%;
     width: 200px;
-    margin-top: 35px;
+    margin-top: 10px;
     height: auto;
     object-fit: cover;
  }
