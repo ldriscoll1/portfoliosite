@@ -196,7 +196,7 @@ Links
     justify-content: space-between;
     align-items: center;
     background-color: #77797a;
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 100%;
  }
