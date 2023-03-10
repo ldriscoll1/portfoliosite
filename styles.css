@@ -33,6 +33,7 @@ Links
    font-family: "Golos Text", sans-serif;
    color: #e9edff;
    margin: 5px;
+   margin-left: 10px;
    padding: 0;
  }
  h1 {
@@ -161,6 +162,7 @@ Links
     padding: 5px;
     border: 1px solid #000;
     border-radius: 5px;
+    margin-top: 20px;
  }
  .navLink{
     font-family: "Golos Text", sans-serif;
@@ -204,8 +206,66 @@ Links
     justify-content: space-between;
     align-items: center;
     background-color: #77797a;
-    position: absolute;
-    bottom: 0;
+    position: fixed;
+    bottom: 0px;
     width: 100%;
     height: 50px;
  }
+ .profile_picture{
+    border: 3px solid #000;
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+ }
+ ul{
+    padding: 0;
+    margin-bottom: 100px;
+
+
+
+ }
+/* Transition animation for a fade */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+
+}
+@keyframes fade {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+.description {
+    width: 50%;
+    height: 100%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    font-family: "Golos Text", sans-serif;
+    background-color: #556265;
+    color: #e9edff;
+    overflow: scroll;
+}
+.experienceLogo {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    border: 0px solid #000;
+    border-radius: 0%;
+    margin: 5px;
+    margin-top: 20px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+.rowSkills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+}

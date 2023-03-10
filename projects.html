@@ -16,15 +16,15 @@
     <nav>
         <a class = "navLink" href = "index.html">About Me</a>
         <a class = "navLink" href = "projects.html">Projects</a>
-        <a class = "navLink" href = "experiences.html">Experience</a>
+        <a class = "navLink" href = "experiences.html">Experiences</a>
     </nav>
 </header>
 <!-- Create a section that has a list of my projects -->
 <section>
     <h2>Projects</h2>
     <div class ="centered">
-        <a href="project1.html">
-            <img class = "Project_Preview" src = "Project1.png" alt = "Project Preview 1">
+        <a id = "projectLink" href="project1.html">
+            <img class = "Project_Preview" src = "Project1.png" alt = "Project Preview Image">
         </a>
     </div>
     
@@ -32,11 +32,25 @@
         <button id = "Prev_Button"><</button>
         <button id = "Next_Button">></button>
     </section>
+    <h2 id = "project_title"></h2>
+    <p id = "project_description" class = "description"></p>
 </section>
 <!-- Create a footer that has my name and the date -->
 <footer>
-    <p>John Doe</p>
-    <p>January 1, 2020</p>
+    <p class="alignLeft">&#169; 2023 Luke Driscoll</p>
+    <div class="alignRight">
+        <a href = "https://github.com/ldriscoll1">
+            <img class = "img-logo" src="https://img.icons8.com/windows/32/null/github.png" alt = "Github Logo"/>
+        </a>
+        <a href = "https://www.linkedin.com/in/luke-driscoll1/">
+            <img class = "img-logo" src="https://img.icons8.com/windows/32/null/linkedin.png" alt = "Linkedin Logo"/>
+        </a>
+        <!-- Email  -->
+        <a href = "mailto:ldriscoll@chapman.edu">
+            <img class = "img-logo" src="https://img.icons8.com/windows/32/null/email.png" alt = "Email Logo"/>
+        </a>
+    </div>
 </footer>
+<script src ="script.js"></script>
 </body>
 </html>
