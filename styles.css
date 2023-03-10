@@ -269,3 +269,9 @@ Links
     justify-content: space-between;
     margin: 5px;
 }
+.buffer  {
+    width: 100%;
+    height: 100px; 
+    /* margin */
+    margin: 0px;
+}
